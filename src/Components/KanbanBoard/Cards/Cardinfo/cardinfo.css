@@ -1,0 +1,63 @@
+.cardinfo {
+    padding: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 600px;
+}
+
+.cardinfo-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cardinfo-box-title {
+    font-weight: bold;
+    font-size : 1.3rem;
+    display: flex;
+    gap:10px;
+}
+.cardinfo-box-body {
+    width: 80%;
+}
+.cardinfo-box-colors {
+    display: flex;
+    gap:15px;
+    align-items: center;
+}
+
+.cardinfo-box-colors li {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    list-style: none;
+    transition: 200ms;
+    border : 3px solid transparent;
+}
+.cardinfo-box-colors .active {
+    border: 3px solid yellow;
+}
+
+.cardinfo-box-progress-bar {
+    height: 10px;
+    border-radius: 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.cardinfo-box-progress {
+    background-color: #f8f8f8f8;
+    border-radius: 20px;
+    height: 10px;
+}
+
+.cardinfo-box-progress-active{
+    background-color: limegreen;
+}
+.cardinfo-box-labels {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}

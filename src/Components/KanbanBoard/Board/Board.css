@@ -1,0 +1,58 @@
+.board {
+    min-width: 400px;
+    max-height: 100%;
+    height: 100%;
+    display: flex;
+    border: 1px solid #ccc;
+    background-color: #eaeaea;
+    flex-direction: column;
+}
+.board-top {
+    margin: 15px;
+    display: grid;
+
+}
+
+.board-title {
+    display: flex;
+    gap:50px;
+    font-weight: bold;
+    margin-left: 11px;
+}
+.board-title span {
+    border-radius: 100rem;
+    background-color: #ccc;
+    width: 30px;
+    text-align: center
+}
+
+.board-cards {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.boards_cards_add {
+    width: 100%;
+    border-radius: 5px;
+}
+.board-top svg {
+    cursor: pointer;
+}
+
+.ListEdit {
+    padding: 10px;
+    position: relative;
+}
+
+.MoreVertIcon {
+    position: absolute;
+    left: 90%;
+    bottom: 104%;
+}
+button#long-button {
+    position: absolute;
+    left: 91%;
+    bottom: 130%;
+}

@@ -1,0 +1,27 @@
+.card {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.card-top {
+    display:grid;
+    gap:10px;
+    grid-template-columns: auto auto;
+}
+.card-labels {
+    display: flex;
+    gap:10px;
+}
+.bin {
+    margin-left: 80%;
+    cursor: pointer;
+}
+.card-title {
+    display: flex;
+    margin-left: 10px;
+    font-weight: bold;
+}

@@ -1,0 +1,40 @@
+.editable {
+    width: 100%;
+}
+
+.editable-display {
+    gap: 5px;
+    padding: 10px;
+    display: flex;
+    font-size: large;
+    cursor: default;
+    margin: 0;
+}
+.editable-display:hover {
+    background-color :#ccc ;
+}
+.editable-edit {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.editable-edit input {
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    height: 35px;
+    font-size: 1rem;
+}
+.edit-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.edit-card button {
+    height: 30px;
+    border: none;
+    background-color: lightgrey;
+    cursor: pointer;
+}
+.edit-card svg {
+    cursor: pointer;
+}
